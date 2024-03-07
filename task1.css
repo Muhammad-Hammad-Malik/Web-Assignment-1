@@ -1,0 +1,203 @@
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.profileSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(179, 46, 46, 0.2);
+}
+
+body {
+  margin-top: 0;
+  background: rgb(141 138 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #000000;
+}
+
+.left_Panel:hover {
+  background-color: #106e63;
+  transform: scale(1.02);
+}
+
+.left_Panel {
+  position: relative;
+  background-color: #148a7f;
+  padding: 80px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.imageBox {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.imageBox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.imageBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileSection h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.profileSection h2 span {
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.contactDetails {
+  padding-top: 40px;
+}
+
+.contactDetails ul li span {
+  font-weight: 400;
+}
+
+.contactDetails.education li {
+  margin-bottom: 15px;
+}
+.sectionTitle {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contactDetails ul {
+  position: relative;
+}
+
+.contactDetails ul li:hover {
+  transform: scale(1.05);
+}
+
+.contactDetails ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #e37b7d;
+}
+
+.contactDetails ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.contactDetails.education h5 {
+  color: rgb(241, 141, 141);
+  font-weight: 500;
+}
+
+.contactDetails.education h4 {
+  color: rgb(252, 248, 248);
+  font-weight: 500;
+}
+
+.contactDetails.education h4:nth-child(2) {
+  color: #fff;
+  font-weight: 300;
+}
+
+.right_Panel {
+  position: relative;
+  padding: 40px;
+  flex: 1;
+  background-color: rgb(204, 204, 204);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.right_Panel:hover {
+  background-color: #dcdcdc;
+  transform: scale(1.02);
+}
+
+.panelTitle {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.personalInfo {
+  margin-bottom: 50px;
+}
+
+.personalInfo:last-child {
+  margin-bottom: 0;
+}
+
+.personalInfo p {
+  color: #444;
+}
+
+.workExperience {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.duration_company {
+  min-width: 150px;
+}
+
+.duration_company h5 {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
+}
+
+.description h4 {
+  text-transform: uppercase;
+  color: rgb(148, 8, 8);
+  font-size: 16px;
+}
+
+.skillsSection {
+  margin-bottom: 80px;
+}
+
+.interests-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interests-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.interests-list i {
+  margin-right: 5px;
+}
